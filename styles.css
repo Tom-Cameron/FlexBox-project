@@ -1,0 +1,80 @@
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    background-color:#1F2937;
+}
+
+.head-bar{
+    display:flex
+}
+
+.logo{
+    margin-right:auto;
+}
+
+.header-links{
+    display: flex;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    background-color: #1F2937;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: auto;
+    
+}
+.info-head{
+    text-align: center;
+    
+}
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Call2Action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-box{
+    background-color: #3882F6;
+    display: flex;
+    flex-grow: 1;
+    max-width: 500px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Call-sign{
+    font-size: 10px;
+    width:100px;
+    height:25px;
+    margin:20px;
+    background-color: #3882F6;
+    color:white;
+    border-color:white;
+}
